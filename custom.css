@@ -1,0 +1,83 @@
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Header */
+  header {
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header .highlight {
+    color: #ff4d4d;
+    background: linear-gradient(to right, red, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .theme-switcher {
+    margin-top: 10px;
+  }
+  
+  .theme-switcher label {
+    margin-right: 10px;
+  }
+  
+  #theme-toggle {
+    transform: scale(1.2);
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    margin: 20px auto;
+    max-width: 500px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  /* Movie Grid */
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .movie-details {
+    text-align: left;
+    background: #333;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .movie-details h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #ff4d4d;
+  }
+  
